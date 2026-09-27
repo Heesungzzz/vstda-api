@@ -1,3 +1,7 @@
-const server = require('./app');
+const app = require("./app");
 
-// write your code here
+const port = 8484;
+
+app.listen(port, () => {
+  console.log(`Server is listening on port ${port}`);
+});
